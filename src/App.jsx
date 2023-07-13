@@ -11,7 +11,7 @@ function App() {
 
   useEffect(()=>{
     if(timeOne!="" && timeTwo !=""){
-      axios.post('http://localhost:3000/api/calculate', {
+      axios.post('http://65.0.130.20:3000/api/calculate', {
         timeOne: timeOne,
         timeTwo: timeTwo
       })
